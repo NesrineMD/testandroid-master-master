@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="testandroid.com.testandroid.MainActivity">
+
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/log"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:text="@string/action_sign_in_short"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <Button
+        android:id="@+id/log"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="202dp"
+        android:text="@string/btn_login"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="246dp" />
+</RelativeLayout>
