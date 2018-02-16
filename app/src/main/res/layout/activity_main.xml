@@ -10,9 +10,9 @@
         android:id="@+id/reg"
         android:layout_width="202dp"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/log"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="22dp"
+        android:layout_marginTop="195dp"
         android:text="@string/action_sign_in_short"
         tools:layout_editor_absoluteX="68dp"
         tools:layout_editor_absoluteY="176dp" />
@@ -21,10 +21,14 @@
         android:id="@+id/log"
         android:layout_width="196dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="202dp"
+        android:layout_alignEnd="@+id/reg"
+        android:layout_alignLeft="@+id/reg"
+        android:layout_alignRight="@+id/reg"
+        android:layout_alignStart="@+id/reg"
+        android:layout_alignTop="@+id/reg"
+        android:layout_marginTop="58dp"
         android:text="@string/btn_login"
         tools:layout_editor_absoluteX="72dp"
         tools:layout_editor_absoluteY="246dp" />
+
 </RelativeLayout>
